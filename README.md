@@ -27,6 +27,6 @@ Road accidents are often caused by short abnormal events, including traffic viol
 7. Train the network with the provided setting
 
 ## Implementation Details
-The final classifier model is a 3-layer MLP, where the number of units is 512, 32, and 1, respectively, regularized by dropout with a probability of 0.6 between each layer. ReLU and Sigmoid functions are deployed after the first and last layers, respectively. We have trained the model with a learning rate of 0.01 for 350 iterations using Adagrad optimizer.
+The final classifier model is a 3-layer MLP, where the number of units is 512, 32, and 1, respectively, regularized by dropout with a probability of 0.6 at the last layer. We have trained the model with a learning rate of 0.01 for 350 iterations using the Adagrad optimizer.
 
 # **Dataset will be available upon request...**
